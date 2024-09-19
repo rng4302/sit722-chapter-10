@@ -16,6 +16,7 @@ const RABBIT = process.env.RABBIT;
 //
 // Application entry point.
 //
+//
 async function main() {
     const messagingConnection = await amqp.connect(RABBIT); // Connects to the RabbitMQ server.
     
